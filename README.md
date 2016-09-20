@@ -39,6 +39,10 @@ $npm start
 
 ##javascript MVC
 
+* Model
+* View
+* Controller
+
 ##file and path explanation
 
  1.sever entry: ```./server/server.js```
