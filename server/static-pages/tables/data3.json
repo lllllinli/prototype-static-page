@@ -1,0 +1,14 @@
+[
+    {
+        "id": 0,
+        "name": "Item 0",
+        "price": "$0",
+        "btn": "<button class=\"btn btn-default\" item-id=\"\">退款</button>"
+    },
+    {
+        "id": 1,
+        "name": "Item 1",
+        "price": "$1",
+        "btn": "<div class=\"btn-group\" role=\"group\"><button type=\"button\" class=\"btn btn-default\">Left</button><button type=\"button\" class=\"btn btn-default\">Middle</button><button type=\"button\" class=\"btn btn-default\">Right</button></div>"
+    }
+]
