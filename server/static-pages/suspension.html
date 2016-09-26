@@ -9,7 +9,8 @@
 <link href="css/bootstrap-dialog.css" rel="stylesheet"/>
 <link href="css/datepicker3.css" rel="stylesheet"/>
 <link href="css/styles.css" rel="stylesheet"/>
-<link href="css/pages/drawback-theme.css" rel="stylesheet"/>
+<!-- style this page -->
+<link href="Content/pj-style/pages/drawback-theme.css" rel="stylesheet"/>
 
 <!--[if lt IE 9]>
 <script src="js/html5shiv.js"></script>
@@ -119,12 +120,9 @@
 					<div class="panel-body">
 						<table class="js-member-table"
 							data-classes="table table-hover"
-							data-show-columns="true"
-							data-search="true"
-							data-select-item-name="toolbar1"
-							data-pagination="false"
-							data-sort-name="name"
-							data-sort-order="desc">
+							data-show-columns="false"
+							data-search="false"
+							data-pagination="false">
 						</table>
 					</div>
 				</div>
@@ -163,23 +161,30 @@
 	<script src="js/bootstrap-dialog.js"></script>
 	<script src="js/common-layout.js"></script>
 	<!-- components -->
-	<script src="js/pages/components/input-member-name.js"></script>
-	<script src="js/pages/components/input-member-identity.js"></script>
-	<script src="js/pages/components/btn-search-member.js"></script>
-  <script src="js/pages/components/table-member-list.js"></script>
-  <script src="js/pages/components/dialog.js"></script>
+	<script src="Scripts/pj-scripts/pages/components/input-member-name.js"></script>
+	<script src="Scripts/pj-scripts/pages/components/input-member-identity.js"></script>
+	<script src="Scripts/pj-scripts/pages/components/btn-search-member.js"></script>
+  <script src="Scripts/pj-scripts/pages/components/table-member-list.js"></script>
+  <script src="Scripts/pj-scripts/pages/components/dialog.js"></script>
+  <script src="Scripts/pj-scripts/pages/components/select-create.js"></script>
+  <script src="Scripts/pj-scripts/pages/components/textarea-create.js"></script>
+	<!-- wigets -->
+	<script src="Scripts/pj-scripts/pages/wigets/form-suspension-description.js"></script>
+
 
 	<!-- contrller -->
-	<script src="js/controllers/fetch-api.js"></script>
+	<script src="Scripts/pj-scripts/controllers/fetch-api.js"></script>
 	<!--api-sourse -->
-	<script src="js/api/api.js"></script>
+	<script src="Scripts/pj-scripts/api/api.js"></script>
 	<!-- model -->
-	<script src="js/models/member-list.js"></script>
-	<script src="js/models/suspension-member.js"></script>
+	<script src="Scripts/pj-scripts/models/member-list.js"></script>
+	<script src="Scripts/pj-scripts/models/suspension-member.js"></script>
+	<script src="Scripts/pj-scripts/models/suspension-types.js"></script>
+	<script src="Scripts/pj-scripts/models/suspension-id.js"></script>
 	<!-- event -->
-  <script src="js/events/events.js"></script>
+  <script src="Scripts/pj-scripts/events/events.js"></script>
 
-	<script src="js/pages/suspension.js"></script>
+	<script src="Scripts/pj-scripts/pages/suspension.js"></script>
 </body>
 
 </html>

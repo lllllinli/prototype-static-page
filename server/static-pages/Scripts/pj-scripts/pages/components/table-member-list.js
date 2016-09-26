@@ -59,10 +59,12 @@ Components.TableMemberList = {
       data   : _data
     };
     this.targetDom.bootstrapTable(_tableObj);
+
     if(this['childs']['hasChild']) {
       $.each(this['childs']['addChild'], function(key, item){
         $.each($('.' + item['wrappertd-class']), function(dkey, ditem) {
           $(ditem)
+          .empty()
           .append($(item['dom'],item['domattr'])
           .attr({'addattr':_data[dkey][item['addattr']]}));
         });

@@ -16,12 +16,18 @@ Components.Dialog = {
           }
       }]
   },
+  setMessage: function(msg) {
+    this.setting.message = msg;
+  },
   dialogRef:{},
+  getDialogRef: function() {
+    return this.dialogRef;
+  },
   show: function() {
     this.dialogRef = BootstrapDialog.show(this.setting);
-
   },
   close: function() {
     this.dialogRef.close();
+    this.dialogRef.getModalBody().find('.js-suspension-types').off('click');
   }
 };

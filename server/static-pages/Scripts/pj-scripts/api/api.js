@@ -22,6 +22,10 @@ Api= {
     postSuspension: function(options) {
       var _setting = Api.getSetting(options);
       return Api.doFetch(_setting);
+    },
+    getSuspensionType:function(options) {
+      var _setting = Api.getSetting(options);
+      return Api.doFetch(_setting);
     }
   }
 };
